@@ -16,17 +16,18 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    font-family: Arial;
+    font-family: 'Hanken Grotesk', sans-serif;
     align-items: center;
 
 }
 
-p {
-    font-size: 18px;
+span > p {
+    font-size: 21px;
 }
 
 .textgr {
     color: rgba(245, 245, 245, 0.692);
+    line-height: 27px;
 }
 
 #sup > h1 { 
@@ -42,16 +43,17 @@ p {
 }
 
 #m-container {
-        display: flex;
+    display: flex;
     text-align: center;
-    height: 120vh;
+    height: 80vh;
     width: 100vw;
     background-image: linear-gradient(#7857ff, #2e2be9);
     justify-content: center;
     color: white;
-    line-height: 26px;
+    line-height: 100px;
     align-items: center;
     border-radius: 0px 0px 35px 35px;
+    
 }
 
 #ball {
@@ -70,13 +72,27 @@ p {
 
 /* s-container */
 
+span > i {
+    padding-right: 10px;
+}
+
+p > span {
+    width: 60px;
+}
+
+
 .skill-items {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    height: 86px;
     padding: 0px 0px 0px 25px;
-    border-radius: 50px;
+    border-radius: 20px;
+}
+
+.skill-items > p {
+    padding-right: 25px;
 }
 
 #s-container {
@@ -91,13 +107,17 @@ p {
 
 #s-container > h2 {
     align-self: flex-start;
-    font-size: 22px;
+    font-size: 24px;
+    margin-top: 20px;
 }
 
 #skill-container {
-    height: 359px;
+    height: 80%;
     width: 80vw;
-    line-height: 92px;
+    line-height: 115px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     
     
 }
@@ -121,7 +141,7 @@ p {
 }
 
 #reaction{
-    color:var(--red)
+    color:var(--red);
     
 }
 
@@ -141,3 +161,18 @@ p {
     font-weight: bold;
 }
 
+#skill-0 {
+    background-color: #FFF6F6;    
+}
+
+#skill-1 {
+    background-color: #F3FBFA;
+}
+
+#skill-2 {
+    background-color: #F3FBFA;
+}
+
+#skill-3 {
+    background-color: #F3F3FC;
+}
