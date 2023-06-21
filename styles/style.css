@@ -162,17 +162,17 @@ p > span {
 }
 
 #skill-0 {
-    background-color: #FFFAF3;    
+    background-color: #FFF6F6; /* Reaction*/    
 }
 
 #skill-1 {
-    background-color: #F3FBFA;
+    background-color: #FFFAF3; /* Memory*/
 }
 
 #skill-2 {
-    background-color: #F3FBFA;
+    background-color: #F3FBFA; /* Verbal*/
 }
 
 #skill-3 {
-    background-color: #F3F3FC;
+    background-color: #F3F3FC; /* Visual*/
 }
